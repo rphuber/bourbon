@@ -121,6 +121,8 @@ linters:
     enabled: true
 
   SpaceAfterComma:
+    exclude:
+      - 'app/assets/stylesheets/addons/_timing-functions.scss'
     enabled: true
 
   SpaceAfterPropertyColon:
@@ -150,6 +152,8 @@ linters:
     enabled: false
 
   UnnecessaryMantissa:
+    exclude:
+      - 'app/assets/stylesheets/addons/_timing-functions.scss'
     enabled: true
 
   UnnecessaryParentReference:
